@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Productos con Formulario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Gestión de Productos</h1>
+    <form id="product-form">
+        <h2>Agregar Producto</h2>
+        <label for="product-name">Nombre del producto:</label>
+        <input type="text" id="product-name" required>
+        <br>
+        <label for="product-brand">Marca del producto:</label>
+        <input type="text" id="product-brand" required>
+        <br>
+        <label for="product-price">Precio:</label>
+        <input type="number" id="product-price" required>
+        <br>
+        <button type="submit">Añadir Producto</button>
+    </form>
+
+    <form id="update-form" style="margin-top: 20px;">
+        <h2>Modificar Producto</h2>
+        <label for="update-name">Nombre del producto:</label>
+        <input type="text" id="update-name" required>
+        <br>
+        <label for="update-brand">Marca del producto:</label>
+        <input type="text" id="update-brand" required>
+        <br>
+        <label for="update-price">Nuevo precio:</label>
+        <input type="number" id="update-price" required>
+        <br>
+        <button type="submit">Actualizar Producto</button>
+    </form>
+
+    <!-- Formulario para eliminar producto -->
+
+<form id="delete-product-form">
+    <h2>Eliminar Producto</h2>
+    <label for="delete-name">Nombre del Producto:</label>
+    <input type="text" id="delete-name" required>
+    <br>
+    <label for="delete-brand">Marca del producto:</label>
+        <input type="text" id="delete-brand" required>
+         <br>
+    
+    <label for="delete-price">Precio del Producto:</label>
+    <input type="number" id="delete-price" required>
+    
+    <button type="submit">Eliminar Producto</button>
+</form>
+
+
+<div id="main">
+    <h2>Lista de Productos</h2>
+    <div class="product-list" id="product-list">
+       
+    </div>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>

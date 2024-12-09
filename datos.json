@@ -1,0 +1,21 @@
+[
+    {
+        "nombre": "Laptop",
+        "marca": "Lenovo",
+        "precio": 800
+        
+    },
+    {
+        "nombre": "Auriculares",
+        "marca": "Rii",
+        "precio": 68
+        
+    },
+    {
+        "nombre": "Teclado",
+        "marca": "Trust",
+        "precio": 90
+        
+    }
+
+]
