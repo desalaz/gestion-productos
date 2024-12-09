@@ -6,7 +6,7 @@ Su uso es dinamico permitiendo:
 - :heavy_plus_sign: Agregar productos 
 - :pencil2: Modificar algunos ya existentes.
 - :x: Eliminar algun producto.   
-y finalmente se listarian todos los productos existentes en el archivo JSON.:page_facing_up:  
+y finalmente se listarian todos los productos existentes en el archivo JSON. :page_facing_up:  
 
 
 
